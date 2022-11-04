@@ -1,0 +1,30 @@
+.form{
+    width: 55%;
+}
+
+.form-name,.form-company,.form-job,.form-mail,.form-phone{
+    display: flex;
+    flex: 1;
+}
+
+.form input, .form textarea{
+    flex-grow: 1;
+    border-radius: 6px;
+    background-color: #421e6e;
+    padding-block: .625rem;
+    padding-inline: 1.25rem;
+    font-size: .875rem;
+    outline: unset;
+    caret-color: white;
+    color: white;
+}
+
+.form input::placeholder,.form textarea::placeholder{
+    font-size: .875rem;
+    color: white;
+}
+
+.form textarea{
+    width: 100%;
+    resize: none;
+}
